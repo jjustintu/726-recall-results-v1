@@ -16,7 +16,7 @@
   <table id="data-table"></table>
 
   <script>
-    fetch('data.csv')
+    fetch('726 Recall Results v1.csv')
       .then(response => response.text())
       .then(csvText => {
         const data = Papa.parse(csvText, { header: true });
